@@ -1,0 +1,24 @@
+.app-header {
+    background-color: #2C73D2;
+    border-bottom: 1px solid #ccc9;
+    padding: 20px 0;
+    text-align: center;
+    position: static;
+    top: 0;
+    width: 100%;
+}
+
+.app-header ul {
+    list-style: none;
+}
+
+.app-header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.app-header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+}

@@ -1,0 +1,39 @@
+.pub {
+    background: #ffffff;
+    border: transparent;
+    border-radius: 4px;
+    box-shadow: 0 0 8px #dddddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.pub header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 10px;
+}
+
+.pub header strong {
+    font-size: 18px;
+}
+
+.pub header span {
+    color: #bbbbbb;
+    font-size: 14px;
+}
+
+.pub section {
+    text-align: center;
+    border-top: 1px solid #ccc4;
+    padding: 20px 0;
+}
+
+.pub section strong {
+    font-size: 26px;
+}
+
+.pub section p {
+    margin-top: 20px;
+}

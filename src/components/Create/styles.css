@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    max-width: 750px;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-top: 40px auto;
+}
+
+.container form {
+    background: #ffffff;
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.container form strong {
+    font-size: 24px;
+}
+
+.container form div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.container form div input {
+    font-size: 18px;
+    padding: 10px 15px;
+    margin: 4px 0;
+    border: 1px solid #aaa9;
+}
+
+.container form div textarea {
+    font-size: 18px;
+    padding: 10px 15px;
+    margin: 4px 0;
+    border: 1px solid #aaa9;
+    resize: none !important;
+}
+
+.container form div button {
+    border: 1px solid #2C73D2;
+    background: #2C73D2;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 4px 0;
+    font-size: 21px;
+}
+
+::placeholder {
+    color: #dddddd;
+}
